@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace ciri;
 
 use Dynamicker\boymelancholy\dynamicker\Dynamickers;
@@ -69,16 +71,5 @@ class EventListener implements Listener
                 $dyn->chatlog .= $data."\n";
             }
         }*/
-    }
-
-    private function ciriCanAnswer(string $message) :bool
-    {
-        if ((int) $message > -1 && (int) $message < 5) {
-            return true;
-        }
-        if ($message === 'bye') {
-            return true;
-        }
-        return false;
     }
 }

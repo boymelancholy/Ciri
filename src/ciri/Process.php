@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace ciri;
 
 use Dynamicker\boymelancholy\dynamicker\Dynamickers;
