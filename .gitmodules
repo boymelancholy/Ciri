@@ -1,0 +1,3 @@
+[submodule "src/Dynamicker"]
+	path = src/Dynamicker
+	url = git@github.com:boymelancholy/Dynamicker.git
