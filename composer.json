@@ -1,0 +1,14 @@
+{
+    "name": "boymelancholyCiri",
+    "description": "FlowyTest",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "flowy/core": "v3.1.2.1",
+        "flowy/standard": "dev-master"
+    }
+}
