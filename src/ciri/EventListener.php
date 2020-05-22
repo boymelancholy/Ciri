@@ -2,7 +2,7 @@
 
 namespace ciri;
 
-use boymelancholy\dynamicker\Dynamickers;
+use Dynamicker\boymelancholy\dynamicker\Dynamickers;
 use flowy\Flowy;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
